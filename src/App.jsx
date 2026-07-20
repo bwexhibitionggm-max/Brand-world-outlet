@@ -11,7 +11,7 @@ import initialExhibitionData from './data/exhibitionData.json';
 import { GITHUB_CONFIG } from './config/adminConfig';
 import { Analytics } from '@vercel/analytics/react';
 import './styles/main.scss';
-
+ 
 function App() {
   const [eventData, setEventData] = useState(initialExhibitionData);
   const [showAdminModal, setShowAdminModal] = useState(false);
